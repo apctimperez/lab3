@@ -2097,7 +2097,7 @@ textarea.form-input::-webkit-resizer { display: none; }
           </li>
 
           <li class="navbar-item">
-            <a href="forms">
+            <a href="forms.php">
             <button class="navbar-link" data-nav-link>Forms</button>
           </a>
           </li>
