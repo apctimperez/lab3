@@ -2174,6 +2174,12 @@ echo $gender;
  
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST")
+	
+// For Xampp Localhost
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "myDB";
 //For Socitcloud
 $servername = "localhost";
 $username = "webprogmi221";
