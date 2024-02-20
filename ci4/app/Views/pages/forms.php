@@ -2214,9 +2214,7 @@ echo "<br>";
 echo $gender;
 ?>
 
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") 
-
+<?php 
 //For Xampp Localhost
 $servername = "localhost";
 $username = "root";
