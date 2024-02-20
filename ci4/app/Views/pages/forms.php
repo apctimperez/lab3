@@ -1922,7 +1922,7 @@ textarea.form-input::-webkit-resizer { display: none; }
       <div class="sidebar-info">
  
         <figure class="avatar-box">
-<img src="tim1.jpg" alt="Timothy Perez" width="80">
+<img src="images/tim1.jpg" alt="Timothy Perez" width="80">
 </figure>
  
         <div class="info-content">
