@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+ <?php
+echo link_tag('css/forms.css');
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Timothy Perez - Personal Portfolio</title> 
-  <link rel="stylesheet" type="text/css" href="css/forms.css">
-  </head>
+$script = [
+   'defer' => null,
+    'src' => 'js/forms.js',
+];
+
+echo script_tag($script);
+?>
 
 <body>
 <style>
