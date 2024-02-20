@@ -2176,16 +2176,16 @@ echo $gender;
 
 	
 // For Xampp Localhost
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "myDB";
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname = "myDB";
 
 //For Socitcloud
-//$servername = "localhost";
-//$username = "webprogmi221";
-//$password = "g_6bCitLu.ljMK*m";
-//$dbname = "webprogmi221";
+$servername = "localhost";
+$username = "webprogmi221";
+$password = "g_6bCitLu.ljMK*m";
+$dbname = "webprogmi221";
  
 $conn = new mysqli($servername, $username, $password, $dbname);
 if($conn->connect_error) {
