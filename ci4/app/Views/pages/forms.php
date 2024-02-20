@@ -2183,9 +2183,9 @@ echo $gender;
 
 //For Socitcloud
 $servername = "localhost";
-$username = "webprogmi221";
-$password = "g_6bCitLu.ljMK*m";
-$dbname = "webprogmi221";
+$username = "root";
+$password = "";
+$dbname = "myDB";
  
 $conn = new mysqli($servername, $username, $password, $dbname);
 if($conn->connect_error) {
