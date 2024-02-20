@@ -12,6 +12,7 @@
     - favicon
   -->
 <link rel="shortcut icon" href="tim1.jpg" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="css/forms.css">
  
  
   <!--
