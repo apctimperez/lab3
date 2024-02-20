@@ -12,7 +12,7 @@
     - favicon
   -->
 <link rel="shortcut icon" href="tim1.jpg" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="css/forms.css">
+
  
  
   <!--
@@ -2173,13 +2173,14 @@ echo $gender;
  
  
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST")
+
 	
 // For Xampp Localhost
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "myDB";
+
 //For Socitcloud
 //$servername = "localhost";
 //$username = "webprogmi221";

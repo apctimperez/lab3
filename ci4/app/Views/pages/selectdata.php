@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-</head>
-<body>
 <?php
 // For Xampp Localhost
 $servername = "localhost";
