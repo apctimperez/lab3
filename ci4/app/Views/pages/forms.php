@@ -2172,6 +2172,7 @@ echo $gender;
  
  
 <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST")
 //For Socitcloud
 $servername = "localhost";
 $username = "webprogmi221";
@@ -2196,5 +2197,5 @@ if ($conn->query($sql) === TRUE){
 $conn->close();
 ?>
  
- 
+ </body>
 </html>
