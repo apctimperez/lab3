@@ -8,8 +8,12 @@ use CodeIgniter\Router\RouteCollection;
  
 $routes->get('/', 'Home::index');
 
+use App\Controllers\Guests;
 use App\Controllers\News; // Add this line
 use App\Controllers\Pages;
+
+$routes->get('guests', [Guests::class, 'index']);           // Add this line
+$routes->get('guests/(:segment)', [Guests::class, 'show']);
 
 $routes->get('news', [News::class, 'index']);
 $routes->get('news/new', [News::class, 'new']); 
