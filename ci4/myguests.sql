@@ -42,7 +42,7 @@ CREATE TABLE `myguests` (
 --
 
 INSERT INTO `myguests` (`id`, `name`, `email`, `website`, `comment`, `gender`, `reg_date`) VALUES
-(1, 'juan-delacruz', 'jdelacruz@company.com', 'http://apcwebprog.csf.ph', 'test', 'male', '2024-02-22 08:46:37');
+(1, 'Tim Perez', 'trperez@company.com', 'http://localhost/webpromi221', 'test', 'male', '2024-02-22 08:46:37');
 
 --
 -- Indexes for dumped tables
