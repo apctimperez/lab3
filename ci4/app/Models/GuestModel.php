@@ -7,7 +7,6 @@ use CodeIgniter\Model;
 class GuestModel extends Model
 {
     protected $table = 'myguests';
-	protected $allowedFields = ['name', 'email', 'website', 'comment', 'gender'];
 
 
 	public function getGuest($email = false)

@@ -13,8 +13,6 @@ use App\Controllers\News; // Add this line
 use App\Controllers\Pages;
 
 $routes->get('guests', [Guests::class, 'index']);           // Add this line
-$routes->get('guests/(:segment)', [Guests::class, 'guest']);
-$routes->post('guests', [Guests::class, 'create']); // Add this line
 $routes->get('guests/(:segment)', [Guests::class, 'show']);
 
 $routes->get('news', [News::class, 'index']);
